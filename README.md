@@ -29,4 +29,4 @@ codex plugin add suews@suews
 - `.agents/plugins/marketplace.json` and `plugins/suews/` for Codex.
 - `.mcp.json` files that launch `suews-mcp` through `uvx`.
 
-Generated from `UMEP-dev/SUEWS` commit `8e46b19f9b37b8d3ad7c0856f35377d6d1d46520`.
+Generated from `UMEP-dev/SUEWS` commit `fb281973dc1b40713f3efea29a9662b78b79548e`.
