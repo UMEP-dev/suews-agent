@@ -1,0 +1,24 @@
+{
+  "name": "suews",
+  "owner": {
+    "name": "UMEP-dev",
+    "email": "ting.sun@ucl.ac.uk",
+    "url": "https://github.com/UMEP-dev"
+  },
+  "metadata": {
+    "description": "SUEWS plugins for AI agent ecosystems - runtime workflow rules for users and developer tooling for contributors",
+    "version": "1.2.0",
+    "repository": "https://github.com/UMEP-dev/suews-agent"
+  },
+  "plugins": [
+    {
+      "name": "suews",
+      "description": "Run, validate, and analyse SUEWS urban climate simulations from your AI assistant. Bundles workflow rules, the `suews-mcp` Model Context Protocol server (validation, inspection, summarise/compare/diagnose, init/convert, versioned knowledge pack), fresh-site simulation guidance with assumption ledgers/readiness levels, forcing-data checks, output interpretation, and common-error diagnostics.",
+      "source": "./",
+      "skills": [
+        "./.claude/skills/suews"
+      ],
+      "mcpServers": "./.mcp.json"
+    }
+  ]
+}
