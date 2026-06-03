@@ -13,8 +13,11 @@ This is a generated distribution mirror, not a development repository. Treat it
 as read-only for human edits: changes should be made in `UMEP-dev/SUEWS`, merged
 to `master`, and then published here by the SUEWS agent-plugin sync workflow.
 
-The `main` branch should be protected so direct pushes are limited to the
-dedicated sync automation identity used by `UMEP-dev/SUEWS`.
+The `main` branch should be protected. In the current low-friction setup, the
+sync workflow pushes with a fine-grained `SUEWS_AGENT_PUSH_TOKEN` stored only in
+`UMEP-dev/SUEWS`, with the token owner kept as the temporary maintainer
+exception. Do not push manual content edits here; they will be overwritten by
+the next generated sync.
 
 ## Install
 
@@ -39,4 +42,4 @@ codex plugin add suews@suews
 - `.agents/plugins/marketplace.json` and `plugins/suews/` for Codex.
 - `.mcp.json` files that launch `suews-mcp` through `uvx`.
 
-Generated from `UMEP-dev/SUEWS` commit `80eed302e5419ea7984ff0ea14b8362b85895297`.
+Generated from `UMEP-dev/SUEWS` commit `2b766a36491277f6185c18044c2e797329536fd2`.
