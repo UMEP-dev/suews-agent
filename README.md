@@ -7,6 +7,15 @@ This repository is generated from
 plugin contents by hand; update the canonical SUEWS skill in the source
 repository and regenerate this distribution.
 
+## Repository Governance
+
+This is a generated distribution mirror, not a development repository. Treat it
+as read-only for human edits: changes should be made in `UMEP-dev/SUEWS`, merged
+to `master`, and then published here by the SUEWS agent-plugin sync workflow.
+
+The `main` branch should be protected so direct pushes are limited to the
+dedicated sync automation identity used by `UMEP-dev/SUEWS`.
+
 ## Install
 
 Claude Code:
@@ -30,4 +39,4 @@ codex plugin add suews@suews
 - `.agents/plugins/marketplace.json` and `plugins/suews/` for Codex.
 - `.mcp.json` files that launch `suews-mcp` through `uvx`.
 
-Generated from `UMEP-dev/SUEWS` commit `ad044655d3533fe300b0a4e809c37158a3869634`.
+Generated from `UMEP-dev/SUEWS` commit `80eed302e5419ea7984ff0ea14b8362b85895297`.
