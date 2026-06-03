@@ -7,7 +7,6 @@
   },
   "metadata": {
     "description": "SUEWS plugins for AI agent ecosystems - runtime workflow rules for users and developer tooling for contributors",
-    "version": "1.2.0",
     "repository": "https://github.com/UMEP-dev/suews-agent"
   },
   "plugins": [

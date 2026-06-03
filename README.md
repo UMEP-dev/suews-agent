@@ -25,8 +25,9 @@ codex plugin add suews@suews
 
 ## Contents
 
-- `.claude-plugin/marketplace.json` and `.claude/skills/suews/` for Claude Code.
+- `.claude-plugin/marketplace.json` and `.claude/skills/suews/` for Claude Code
+  (git commit identifies the installed plugin version).
 - `.agents/plugins/marketplace.json` and `plugins/suews/` for Codex.
 - `.mcp.json` files that launch `suews-mcp` through `uvx`.
 
-Generated from `UMEP-dev/SUEWS` commit `fb281973dc1b40713f3efea29a9662b78b79548e`.
+Generated from `UMEP-dev/SUEWS` commit `ad044655d3533fe300b0a4e809c37158a3869634`.
