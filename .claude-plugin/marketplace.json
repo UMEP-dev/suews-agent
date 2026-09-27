@@ -6,7 +6,7 @@
     "url": "https://github.com/UMEP-dev"
   },
   "metadata": {
-    "description": "SUEWS plugins for AI agent ecosystems - runtime workflow rules for users and developer tooling for contributors",
+    "description": "SUEWS plugin for AI agent ecosystems - runtime workflow rules and the suews-mcp server for running, validating, and analysing simulations. Contributor/maintainer skills live in the repository under .claude/skills/ and are not published as a separate plugin.",
     "repository": "https://github.com/UMEP-dev/suews-agent"
   },
   "plugins": [
