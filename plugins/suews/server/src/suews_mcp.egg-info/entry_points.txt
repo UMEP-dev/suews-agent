@@ -1,0 +1,2 @@
+[console_scripts]
+suews-mcp = suews_mcp.server:main

@@ -39,10 +39,12 @@ codex plugin add suews@suews
 
 - `plugins/suews/`: the plugin itself, shared by every host. It holds
   `.claude-plugin/plugin.json` (Claude Code and Anthropic's plugin directory),
-  `.codex-plugin/plugin.json` (Codex), the `suews` skill, and a `.mcp.json` that
-  launches `suews-mcp` through `uvx`, pinned to the source commit below.
+  `.codex-plugin/plugin.json` (Codex), the `suews` skill, and the `suews-mcp`
+  source in `server/` with a `uv.lock`. Claude Code runs that copy through
+  `uv run` (`.mcp.json`); Codex launches `suews-mcp` through `uvx`, pinned to
+  the source commit below (`.codex-mcp.json`).
 - `.claude-plugin/marketplace.json` for Claude Code (git commit identifies the
   installed plugin version).
 - `.agents/plugins/marketplace.json` for Codex.
 
-Generated from `UMEP-dev/SUEWS` commit `e104f519eb336f53e91ae4141df4ba9bbd9013e4`.
+Generated from `UMEP-dev/SUEWS` commit `021ca082636d2de307181f1984ab1a8b2511d5c1`.
