@@ -4,7 +4,7 @@
       "command": "uvx",
       "args": [
         "--from",
-        "git+https://github.com/UMEP-dev/SUEWS.git@021ca082636d2de307181f1984ab1a8b2511d5c1#subdirectory=mcp",
+        "git+https://github.com/UMEP-dev/SUEWS.git@9cf2159b4e40159eb80750c841bc11f1248853ff#subdirectory=mcp",
         "suews-mcp"
       ]
     }

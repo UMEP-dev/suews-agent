@@ -47,4 +47,4 @@ codex plugin add suews@suews
   installed plugin version).
 - `.agents/plugins/marketplace.json` for Codex.
 
-Generated from `UMEP-dev/SUEWS` commit `021ca082636d2de307181f1984ab1a8b2511d5c1`.
+Generated from `UMEP-dev/SUEWS` commit `9cf2159b4e40159eb80750c841bc11f1248853ff`.

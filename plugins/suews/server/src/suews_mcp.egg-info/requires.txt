@@ -1,4 +1,0 @@
-supy
-mcp<2,>=1.2
-anyio>=4
-httpx<1.0
